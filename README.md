@@ -1,3 +1,3 @@
-## 
+## Git hub page
 
-# shims94.github.io
+### shims94.github.io
