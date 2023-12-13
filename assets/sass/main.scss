@@ -524,7 +524,64 @@ table {
 section,
 article {
 	margin-bottom: 3em;
+	text-align: left;
 }
+
+section> :first-child {
+	margin-top: 10rem;
+}
+
+
+/* Section/Article, 항목 / 분류 */
+section {
+	/* 항목 메인이미지 */
+	.image {
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 20px;
+
+		padding: 1rem !important;
+		display: block;
+		width: 100%;
+		object-fit: cover;
+
+		img {
+			border: 0;
+			border-radius: 20px;
+		}
+	}
+
+	/* 항목 메인이미지 */
+	.icon {
+		
+	}
+
+	/* 섹션 제목 */
+	h1 {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	/* h2 항목제목 */
+	h2 {
+		text-align: left;
+		margin-bottom: .5rem;
+		font-size: 3rem;
+
+	}
+
+	/* h3 기술스택 */
+	h3 {
+		font-size: 1rem;
+		margin-bottom: -.25rem;
+	}
+
+	/* h4는 기간등, h5는 일반텍스트 본문, 강조는 <strong> */
+	h4,
+	h5 {
+		font-weight: 500;
+	}
+}
+
 
 section> :last-child,
 article> :last-child,
