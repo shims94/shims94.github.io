@@ -564,8 +564,8 @@ section {
 	/* h2 항목제목 */
 	h2 {
 		text-align: left;
-		margin-bottom: .5rem;
-		font-size: 3rem;
+		margin-bottom: 2rem;
+		font-size: 2.5rem;
 
 	}
 
@@ -575,6 +575,9 @@ section {
 		margin-bottom: -.25rem;
 	}
 
+	h4 {
+		margin-top: -2rem;
+	}
 	/* h4는 기간등, h5는 일반텍스트 본문, 강조는 <strong> */
 	h4,
 	h5 {
@@ -739,6 +742,7 @@ ul.social {
 			border-radius: 6px;
 			top: 0;
 			position: relative;
+			
 
 			&.white {
 				background-color: #ffffff !important;
